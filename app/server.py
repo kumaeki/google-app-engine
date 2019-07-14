@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/uc?export=download&id=1ASKlHXFyUWz71IeqagNh4uSboHUTfAw0'
+model_file_url = 'https://drive.google.com/uc?export=download&id=1LXa6Nm26LrPoh9YFH1o5WyDk0WG2FdLA'
 model_file_name = 'model'
 classes = ['polar_bear','panda','brown_bear','american_black_bear','sloth_bear','spectacled_bear']
 path = Path(__file__).parent
