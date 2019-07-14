@@ -26,7 +26,7 @@ async def download_file(url, dest):
 
 async def setup_learner():
     await download_file(model_file_url, path/'models'/f'{model_file_name}.pth')
-    learn = load_learner(path)
+    learn = load_learner(model_file_url)
     return learn
 
 loop = asyncio.get_event_loop()
